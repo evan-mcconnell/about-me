@@ -12,15 +12,32 @@
 
 .mainstats {
   margin-top: 10px;
-  border: 3pt ridge #cbced3;
+  border: 4pt ridge #cbced3;
 }
 
-.mainstats h2 {
+.mainstats h2, .manstats p {
   text-align: center;
 }
 
 .columnstats.panel {
   margin: 5px;
+}
+
+.hitpoints .panel {
+  border: 4pt ridge #cbced3;
+}
+
+.traits .panel {
+  border: 2pt ridge #cbced3;
+}
+
+.traits span {
+  color: darkgrey;
+}
+
+.lowerlabel {
+  text-align: center;
+  color: darkgrey;
 }
 /* .mainbody [class*="col"] {
   padding: -20px;
