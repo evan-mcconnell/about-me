@@ -10,6 +10,10 @@
   /* background-color: blue; */
 }
 
+.well {
+  padding: 5px;
+}
+
 .mainstats {
   margin-top: 10px;
   border: 4pt ridge #cbced3;
