@@ -1,5 +1,4 @@
 
-
 .toplabels {
   font-size: 13px;
   color: darkgrey;
@@ -13,6 +12,10 @@
 .mainbody .well, .panel:not(.mainstats) {
   margin: 10px;
   /* background-color: blue; */
+}
+
+#percpetionbonus {
+  font-size: large;
 }
 
 .well {
@@ -62,9 +65,14 @@
   color: darkgrey;
 }
 
+.features .panel-body {
+  padding: 40px;
+}
+
 .lowerlabel {
   text-align: center;
   color: darkgrey;
+  padding-top: 20px;
 }
 /* .mainbody [class*="col"] {
   padding: -20px;
