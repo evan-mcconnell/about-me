@@ -5,6 +5,11 @@
   color: darkgrey;
 }
 
+.toprow img {
+  height: 65px;
+  float: right;
+}
+
 .mainbody .well, .panel:not(.mainstats) {
   margin: 10px;
   /* background-color: blue; */
@@ -29,6 +34,18 @@
 
 .hitpoints .panel {
   border: 4pt ridge #cbced3;
+}
+
+.hitpoints {
+    text-align: center;
+}
+
+.ac {
+  border-radius: 27px;
+}
+
+#armorclass {
+  font-size: 11px;
 }
 
 .alert {
