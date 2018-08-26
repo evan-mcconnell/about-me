@@ -1,7 +1,30 @@
+
+
 .toplabels {
   font-size: 13px;
   color: darkgrey;
 }
+
+.mainbody .well, .panel:not(.mainstats) {
+  margin: 10px;
+  /* background-color: blue; */
+}
+
+.mainstats {
+  margin-top: 10px;
+  border: 3pt ridge #cbced3;
+}
+
+.mainstats h2 {
+  text-align: center;
+}
+
+.columnstats.panel {
+  margin: 5px;
+}
+/* .mainbody [class*="col"] {
+  padding: -20px;
+} */
 
 /* .hitpoints {
   background-color: lightgrey;
